@@ -1,6 +1,5 @@
 
-import config.py
-
+from config import *
 #First need to seperate out lines and their ids from the rest of the data
 def id_to_line(file= movie_lines_file):
 	f = open(file).read().split('\n')
